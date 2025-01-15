@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Envoyé Finance</title>
+    <meta name="description" content="AIMass Tailwind based SASS Template" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="static/img/favicon.png" />
+
+    <!-- Icon Font -->
+    <link rel="stylesheet" href="static/fonts/iconfonts/font-awesome/stylesheet.css" />
+    <!-- Site font -->
+    <link rel="stylesheet" href="static/fonts/webfonts/inter/stylesheet.css" />
+    <link rel="stylesheet" href="static/fonts/webfonts/plus-jakarta-sans/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/syne/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/outfit/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/sora/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/dm-sans/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/cabin/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/general-sans/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/public-sans/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/kanit/stylesheet.css" />
+    <link rel="stylesheet" href="/static/fonts/webfonts/clash-display/stylesheet.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="static/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="static/css/vendors/jos.css" />
+    <link rel="stylesheet" href="static/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/custom.css" />
+
+    <!-- Development css -->
+    <link href="static/css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="page-wrapper relative z-[1] {% block bgCustom %}{% endblock %}">
+        <!-- Header Start -->
+        
+        <header class="site-header site-header--absolute is--white py-3" id="sticky-menu">
+            <div class="container-default">
+                <div class="flex items-center justify-between gap-x-8">
+                    <!-- Header Logo -->
+                    <a href="/" class="">
+                        <img src ="/static/img/logo-purple-dark.png" alt="Masco" width="109" height="24" />
+                    
+                    </a>
+                    <!-- Header Logo -->
+        
+                    <!-- Header Navigation -->
+                    <div class="menu-block-wrapper">
+                        <div class="menu-overlay"></div>
+                        <nav class="menu-block" id="append-menu-header">
+                            <div class="mobile-menu-head">
+                                <div class="go-back">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                </div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close">&times;</div>
+                            </div>
+                            <ul class="site-menu-main">
+                      
+                                <li class="nav-item">
+                                    <a href="index2.html" class="nav-link-item">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link-item">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="services.html" class="nav-link-item">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="faq.html" class="nav-link-item">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link-item">Contact</a>
+                                </li>
+                               
+                               
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Header Navigation -->
+        
+                    <!-- Header User Event -->
+                    <div class="flex items-center gap-6">
+                        <a href="/signup" class="btn is-green btn-animation group hidden rounded sm:inline-block"><span>Join testflight</span></a>
+                        <!-- Responsive Offcanvas Menu Button -->
+                        <div class="block lg:hidden">
+                            <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Header User Event -->
+                </div>
+            </div>
+        </header>
+
+
+
+        <main class="main-wrapper relative overflow-hidden">
+            
+ <!-- Hero Section Start -->
+ <section class="section-hero">
+    <!-- Section Space -->
+    <div class="pb-20 pt-28 md:pt-36 lg:pb-[100px] lg:pt-[150px] xxl:pb-[120px] xxl:pt-[185px]">
+        <!-- Section Container -->
+        <div class="container-default">
+            <!-- Hero Area -->
+            <div class="grid items-center gap-12 lg:grid-cols-[1fr,minmax(0,_0.8fr)] lg:gap-[50px]">
+                <!-- Hero Content Block -->
+                <div class="jos mx-auto max-w-[500px] lg:mx-0 lg:max-w-none">
+                    <div class="flex flex-col items-center justify-center text-center lg:items-start lg:justify-normal lg:text-left">
+                        <h1 class="mb-6 text-4xl font-extrabold leading-[1.11] -tracking-[1px] md:text-5xl lg:text-6xl xl:text-7xl xxl:text-[90px]">
+                            Track spending. Make smarter decisions.
+                        </h1>
+                        <p class="mb-10 max-w-[624px] xl:mb-[50px]">
+                            Envoyé uses advanced AI to revolutionize your financial journey,
+                             offering smart insights to help you save, spend, and plan better. 
+                             It’s your personal assistant for making smarter financial decisions, effortlessly.
+                        </p>
+                        <div class="mb-6 flex flex-wrap justify-center gap-5 sm:justify-normal">
+                            <a href="" class="btn is-green btn-animation is-large inline-block rounded"><span>Start free trial</span></a>
+                            <a href="" class="btn is-outline-black btn-animation is-large inline-block rounded"><span>Learn more</span></a>
+                        </div>
+                        <p class="flex gap-[10px] text-base font-semibold">
+                            <img src ="/static/img/icons/icon-green-star.svg" alt="icon-green-star" width="25" height="24" />
+                            Rated 4.9/5 - from over 600 reviews
+                        </p>
+                    </div>
+                </div>
+                <!-- Hero Content Block -->
+
+                <!-- Hero Image Block -->
+                <div class="jos">
+                    <div class="relative mx-auto h-auto max-w-[280px] sm:max-w-[500px] lg:ml-auto lg:mr-0">
+                        <!-- Hero Main Image -->
+                        <img src ="/static/img/th-2/hero-img.png" alt="hero-img" width="499" height="505" />
+                        <!-- Hero Avatar Image -->
+                        <img src ="/static/img/th-2/hero-avatar-img-1.png" alt="hero-avatar-img-1" width="70" height="70" class="absolute -left-[35px] top-[150px] h-[70px] w-[70px] rounded-[50%]" />
+                        <!-- Hero Avatar Image -->
+                        <img src ="/static/img/th-2/hero-avatar-img-2.png" alt="hero-avatar-img-2" width="78" height="78" class="absolute -right-[39px] bottom-10 h-[78px] w-[78px] rounded-[50%]" />
+                        <!-- Hero Shape -->
+                        <img src ="/static/img/elements/hero-2-shape-1.svg" alt="hero-2-shape-1" width="90" height="91" class="absolute -right-[45px] -top-[70px]" />
+                    </div>
+                </div>
+                <!-- Hero Image Block -->
+            </div>
+            <!-- Hero Area -->
+        </div>
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- Hero Section End -->
+
+<!-- Features Section Start -->
+<section class="section-features">
+    <!-- Section Background -->
+    <div class="bg-ColorPurple/5">
+        <!-- Section Space -->
+        <div class="section-space">
+            <!-- Section Container -->
+            <div class="container-default">
+                <!-- Section Content Wrapper -->
+                <div class="jos mb-[60px] xl:mb-20">
+                    <!-- Section Content Block -->
+                    <div class="mx-auto max-w-[636px]">
+                        <h2 class="text-center">
+                            Game-Changing Features for Smarter Finances
+                        </h2>
+                    </div>
+                    <!-- Section Content Block -->
+                </div>
+                <!-- Section Content Wrapper -->
+               
+                <!-- Feature List -->
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- Feature Item -->
+                    <div class="jos" data-jos_delay="0">
+                        <div class="hover-solid-shadow h-full">
+                            <div class="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                                <img src ="/static/img/icons/icon-black-home-7-service-2.svg" alt="icon-duotone-translate" width="60" height="60" class="mb-[30px] h-[60px] w-auto" />
+                                <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
+                                    Airtime-to-Cash Conversion
+                                </div>
+                                <p>
+                                    Transform your unused airtime into cash instantly.
+                                    Envoyé makes this process seamless.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature Item -->
+                    <!-- Feature Item -->
+                    <div class="jos" data-jos_delay="0.3">
+                        <div class="hover-solid-shadow h-full">
+                            <div class="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                                <img src ="/static/img/icons/icon-black-service-4.svg" alt="icon-duotone-user-list" width="60" height="60" class="mb-[30px] h-[60px] w-auto" />
+                                <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
+                                    Customizable ATM Cards
+                                </div>
+                                <p>
+                                    you can customize your ATM card by adding your nickname 
+                                    and even your picture.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature Item -->
+                    <!-- Feature Item -->
+                    <div class="jos" data-jos_delay="0.6">
+                        <div class="hover-solid-shadow h-full">
+                            <div class="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                                <img src ="/static/img/icons/icon-black-service-1.svg" alt="icon-duotone-private-message" width="60" height="60" class="mb-[30px] h-[60px] w-auto" />
+                                <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
+                                    Personal & Joint Savings 
+                                </div>
+                                <p>
+                                    Save with ease get funds unlocked within 12 hours at 
+                                    an industry-leading rate of just 0.03%.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature Item -->
+                </div>
+                <!-- Feature List -->
+                <br>
+                  <!-- Feature List -->
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- Feature Item -->
+                    <div class="jos" data-jos_delay="0">
+                        <div class="hover-solid-shadow h-full">
+                            <div class="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                                <img src ="/static/img/icons/icon-black-home-5-pricing-3.svg" alt="icon-duotone-translate" width="60" height="60" class="mb-[30px] h-[60px] w-auto" />
+                                <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
+                                    Envoyé AI
+                                </div>
+                                <p>
+                                    Our AI helps you budget, track spending, recommend plans 
+                                    & manage bills effortlessly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature Item -->
+                    <!-- Feature Item -->
+                    <div class="jos" data-jos_delay="0.3">
+                        <div class="hover-solid-shadow h-full">
+                            <div class="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                                <img src ="/static/img/icons/icon-black-home-7-service-7.svg" alt="icon-duotone-user-list" width="60" height="60" class="mb-[30px] h-[60px] w-auto" />
+                                <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
+                                    Bill Payments
+                                </div>
+                                <p>
+                                    Envoyé simplifies your daily financial obligations.
+                                    Pay for all your bills in just a few taps.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature Item -->
+                    <!-- Feature Item -->
+                    <div class="jos" data-jos_delay="0.6">
+                        <div class="hover-solid-shadow h-full">
+                            <div class="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                                <img src ="/static/img/icons/icon-black-home-5-pricing-2.svg" alt="icon-duotone-private-message" width="60" height="60" class="mb-[30px] h-[60px] w-auto" />
+                                <div class="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-ColorBlack lg:text-2xl">
+                                    Cross-Border Transactions
+                                </div>
+                                <p>
+                                    Whether you’re transferring from Nigeria to Africa & Abroad, 
+                                    Envoyé ensures secure & fast transactions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Feature Item -->
+                </div>
+                <!-- Feature List -->
+            </div>
+            <!-- Section Container -->
+        </div>
+        <!-- Section Space -->
+    </div>
+    <!-- Section Background -->
+</section>
+<!-- Features Section End -->
+
+<!-- Content Section Start -->
+<section class="section-content">
+    <!-- Section Spacer -->
+    <div class="section-space">
+        <!-- Section Container -->
+        <div class="container-custom">
+            <div class="flex flex-col gap-y-20 lg:gap-y-[100px] xl:gap-y-[120px]">
+                <!-- Content Area Single -->
+                <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24 xl:grid-cols-[1fr_minmax(0,_1.2fr)] xl:gap-[148px]">
+                    <!-- Content Block Left -->
+                    <div class="jos lg:order-2" data-jos_animation="fade-left">
+                        <!-- Section Wrapper -->
+                        <div>
+                            <!-- Section Block -->
+                            <div class="mb-5">
+                                <h2>
+                                    Smarter Financial Management with Evoyé AI
+                                </h2>
+                            </div>
+                            <!-- Section Block -->
+                        </div>
+                        <!-- Section Wrapper -->
+                        <p>
+                            Let our AI technology simplify your financial life by helping 
+                            you make smarter decisions and stay on top of your financial goals.
+                        </p>
+
+                        <div class="my-8 h-[1px] w-full bg-ColorBlack/10 lg:my-[50px]"></div>
+
+                        <ul class="flex flex-col gap-5 font-semibold text-ColorBlack">
+                            <li>
+                                <span class="mr-3 inline-block text-xl"><i class="fa-solid fa-badge-check"></i></span>
+                                Get intelligent, customized budget recommendations .
+                            </li>
+                            <li>
+                                <span class="mr-3 inline-block text-xl"><i class="fa-solid fa-badge-check"></i></span>
+                                Track & reduce unnecessary expenses, keeping spending in check.
+                            </li>
+                            <li>
+                                <span class="mr-3 inline-block text-xl"><i class="fa-solid fa-badge-check"></i></span>
+                                Stay updated on renewals & due dates, ensuring timely payments.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Content Block Left -->
+                    <!-- Content Block Right -->
+                    <div class="jos relative lg:order-1" data-jos_animation="fade-right">
+                        <!-- Content Image -->
+                        <img src ="/static/img/th-2/content-img-1.jpg" alt="content-img-1" width="512" height="456" class="h-auto w-full" />
+                    </div>
+                    <!-- Content Block Right -->
+                </div>
+                <!-- Content Area Single -->
+                <!-- Content Area Single -->
+                <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24 xl:grid-cols-[1.4fr_minmax(0,_1fr)] xl:gap-[209px]">
+                    <!-- Content Block Left -->
+                    <div class="jos" data-jos_animation="fade-right">
+                        <!-- Section Wrapper -->
+                        <div>
+                            <!-- Section Block -->
+                            <div class="mb-5">
+                                <h2>
+                                    Why Choose Envoyé?
+                                </h2>
+                            </div>
+                            <!-- Section Block -->
+                        </div>
+                        <!-- Section Wrapper -->
+                        <p>
+                            Envoyé is built with the modern user in mind. Our platform 
+                            bridges the gap between traditional banking and the future 
+                            of financial technology, offering more improved artificial 
+                            intelligence features.
+                        </p>
+                        <p>
+                            With a focus on affordability, convenience, and innovation, 
+                            Envoyé ensures that every user’s financial journey is seamless 
+                            and rewarding.
+                        </p>
+                        <div class="mt-[50px]">
+                            <a href="" class="btn is-green btn-animation is-large inline-block rounded"><span>Learn more</span></a>
+                        </div>
+                    </div>
+                    <!-- Content Block Left -->
+                    <!-- Content Block Right -->
+                    <div class="jos relative" data-jos_animation="fade-left">
+                        <!-- Content Image -->
+                        <img src ="/static/img/th-2/content-img-2.jpg" alt="content-img-2" width="451" height="456" class="h-auto w-full" />
+                    </div>
+                    <!-- Content Block Right -->
+                </div>
+                <!-- Content Area Single -->
+            </div>
+        </div>
+        <!-- Section Container -->
+    </div>
+    <!-- Section Spacer -->
+</section>
+<!-- Content Section End -->
+
+
+
+<!-- Testimonial Section Start -->
+<section class="section-testimonial">
+    <!-- Section Background -->
+    <div class="bg-ColorPurple/5">
+        <!-- Section Space -->
+        <div class="section-space">
+            <!-- Section Container -->
+            <div class="container-default">
+                <!-- Section Content Wrapper -->
+                <div class="jos mb-[60px] xl:mb-20">
+                    <!-- Section Content Block -->
+                    <div class="mx-auto max-w-[636px]">
+                        <h2 class="text-center">
+                            Thousands of Nigerians Patiently await Envoyé
+                        </h2>
+                    </div>
+                    <!-- Section Content Block -->
+                </div>
+                <!-- Section Content Wrapper -->
+
+                <!-- Testimonial List -->
+                <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-20">
+                    <!-- Testimonial Item -->
+                    <div class="jos flex flex-col items-center justify-center text-center" data-jos_animation="fade-right" data-jos_delay="0">
+                        <!-- Review Star -->
+                        <div class="mb-5 flex gap-[7px] text-2xl text-[#00B67A] lg:mb-[30px]">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-ColorBlack">
+                            “We’re excited for Envoyé’s innovative savings solutions. 
+                            With secure, flexible savings options, managing my finances 
+                            will be smoother than ever before.”
+                        </p>
+                        <div class="font mt-auto text-base font-semibold text-[#6B6F7B]">
+                            <span class="text-ColorBlack">– Kossi Amegah, </span>from
+                            Togo
+                        </div>
+                    </div>
+                    <!-- Testimonial Item -->
+                    <!-- Testimonial Item -->
+                    <div class="jos flex flex-col items-center justify-center text-center" data-jos_animation="fade-right" data-jos_delay="0.3">
+                        <!-- Review Star -->
+                        <div class="mb-5 flex gap-[7px] text-2xl text-[#00B67A] lg:mb-[30px]">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-ColorBlack">
+                            “I can’t wait to try Envoyé’s automated financial assistant. 
+                            I believe it will help me track my spending effortlessly and 
+                            manage my finances with greater control.”
+                        </p>
+                        <div class="font mt-auto text-base font-semibold text-[#6B6F7B]">
+                            <span class="text-ColorBlack">- Gabriel Adamu,  </span>from
+                            Minna
+                        </div>
+                    </div>
+                    <!-- Testimonial Item -->
+                    <!-- Testimonial Item -->
+                    <div class="jos flex flex-col items-center justify-center text-center" data-jos_animation="fade-right" data-jos_delay="0.6">
+                        <!-- Review Star -->
+                        <div class="mb-5 flex gap-[7px] text-2xl text-[#00B67A] lg:mb-[30px]">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-ColorBlack">
+                            With Envoyé's secure savings options and contribution 
+                            plans, I’m looking forward to having a reliable, safe, 
+                            and easy way to grow my funds over time.”
+                        </p>
+                        <div class="font mt-auto text-base font-semibold text-[#6B6F7B]">
+                            <span class="text-ColorBlack">– Florence Kpatcha, </span>from
+                            Benin
+                        </div>
+                    </div>
+                    <!-- Testimonial Item -->
+                </div>
+                <!-- Testimonial List -->
+
+                <div class="jos flex justify-center">
+                    <a href="#" class="btn is-green btn-animation is-large mt-10 inline-block rounded lg:mt-20"><span>Share Your Journey with
+                            <strong class="underline underline-offset-4">Envoyé</strong></span></a>
+                </div>
+            </div>
+            <!-- Section Container -->
+        </div>
+        <!-- Section Space -->
+    </div>
+    <!-- Section Background -->
+</section>
+
+
+<!-- Content Section Start -->
+<section class="section-content">
+    <!-- Section Space -->
+    <div class="section-space">
+        <!-- Section Container -->
+        <div class="container-custom">
+            <!-- Content Area Single -->
+            <div class="grid items-center gap-10 lg:grid-cols-2 lg:gap-24 xl:grid-cols-[1fr_minmax(0,_0.82fr)] xl:gap-[143px]">
+                <!-- Content Block Left -->
+                <div class="jos" data-jos_animation="fade-right">
+                    <!-- Section Wrapper -->
+                    <div>
+                        <!-- Section Block -->
+                        <div class="mb-5">
+                            <h2>Empowering Business Growth Through Strategic Partnerships</h2>
+                        </div>
+                        <!-- Section Block -->
+                    </div>
+                    <!-- Section Wrapper -->
+                    <p class="max-w-[627px]">
+                        By partnering with amazing businesses across Africa and beyond, we unlock 
+                        opportunities and help individuals and companies reach their full potential.
+                         Through innovation, collaboration,  and a shared vision, we build lasting 
+                         partnerships that drive growth and create lasting impact.
+                    </p>
+                    <div class="mt-[50px]">
+                        <a href="" class="btn is-green btn-animation is-large inline-block rounded"><span>Learn More</span></a>
+                    </div>
+                </div>
+                <!-- Content Block Left -->
+                <!-- Content Block Right -->
+                <div class="jos relative" data-jos_animation="fade-left">
+                    <!-- Content Image -->
+                    <img src ="/static/img/th-2/content-img-3.png" alt="content-img-3" width="472" height="348" class="h-auto w-full" />
+                </div>
+                <!-- Content Block Right -->
+            </div>
+            <!-- Content Area Single -->
+        </div>
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- Content Section End -->
+
+<!-- CTA Section Start -->
+<section class="section-cta">
+    <!-- Section Background -->
+    <div class="relative bg-ColorGreen">
+        <!-- Section Space -->
+        <div class="py-[60px] lg:py-20 xl:py-[100px]">
+            <!-- Section Container -->
+            <div class="container-default">
+                <!-- Section Content Wrapper -->
+                <div class="jos mb-[50px]">
+                    <!-- Section Content Block -->
+                    <div class="mx-auto max-w-[700px]">
+                        <h2 class="text-center text-white">
+                            Join Our TestFlight Today & Experience the Difference!
+                        </h2>
+                    </div>
+                    <!-- Section Content Block -->
+                </div>
+                <!-- Section Content Wrapper -->
+                <div class="jos flex justify-center">
+                    <a href="" class="btn is-outline-white btn-animation is-large inline-block rounded">
+                        <span>Get started free</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Section Container -->
+        </div>
+        <!-- Section Space -->
+
+        <!-- Newsletter Shape 1 -->
+        <img src ="/static/img/elements/flower-shape-1.svg" alt="flower-shape-1" width="92" height="116" class="absolute left-[152px] top-[44px] hidden md:block" />
+        <!-- Newsletter Shape 2 -->
+        <img src ="/static/img/elements/flower-shape-2.svg" alt="flower-shape-2" width="129" height="164" class="absolute bottom-0 right-[57px] hidden md:block" />
+    </div>
+    <!-- Section Background -->
+</section>
+<!-- CTA Section End -->
+        </main>
+
+        <footer class="section-footer">
+            <div class="bg-white">
+                <!-- Footer Area Center -->
+                <div class="text-ColorBlack">
+                    <!-- Footer Center Spacing -->
+                    <div class="py-[60px] lg:py-20">
+                        <!-- Section Container -->
+                        <div class="container-default">
+                            <!-- Footer Widget List -->
+                            <div class="grid gap-x-4 lg:gap-x-16 gap-y-10 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-[1fr_repeat(3,_auto)] xl:lg:grid-cols-[1fr_repeat(4,_auto)]  xl:gap-x-20">
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-7 md:col-span-4 lg:col-span-1">
+                                    <!-- Footer Logo -->
+                                    <a href="/">
+                                        <img src ="/static/img/logo-purple-dark.png" alt="Masco" width="109" height="24" />
+                                    </a>
+                                    <!-- Footer Content -->
+                                    <div>
+                                        <!-- Footer About Text -->
+                                        <div class="lg:max-w-[400px]">
+                                            Envoyé is built with the modern user in mind. 
+                                            Our platform bridges the gap between traditional banking 
+                                            and the future of financial technology, offering more improved 
+                                            artificial intelligence features.
+                                        </div>
+                                        <!-- Footer Mail -->
+                                        <a href="mailto:yourdemo@email.com" class="my-6 block underline-offset-4 transition-all duration-300 hover:underline">hello@envoyewallet.app</a>
+                                        <!-- Footer Social Link -->
+                                        <div class="flex flex-wrap gap-5">
+                                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-ColorBlack/10 text-sm text-ColorBlack transition-all duration-300 hover:bg-ColorBlack hover:text-white" aria-label="twitter">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-ColorBlack/10 text-sm text-ColorBlack transition-all duration-300 hover:bg-ColorBlack hover:text-white" aria-label="facebook">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-ColorBlack/10 text-sm text-ColorBlack transition-all duration-300 hover:bg-ColorBlack hover:text-white" aria-label="instagram">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer" class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-ColorBlack/10 text-sm text-ColorBlack transition-all duration-300 hover:bg-ColorBlack hover:text-white" aria-label="github">
+                                                <i class="fa-brands fa-github"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- Footer Content -->
+                                </div>
+                                <!-- Footer Widget Item -->
+        
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-7 md:col-span-1 lg:col-span-1">
+                                    <!-- Footer Widget Title -->
+                                    <div class="text-xl font-semibold capitalize">
+                                        Primary Pages
+                                    </div>
+                                    <!-- Footer Navbar -->
+                                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                                        <li>
+                                            <a href="/" class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="/about" class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="/services" class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact" class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Footer Widget Item -->
+        
+                                
+        
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1">
+                                    <!-- Footer Title -->
+                                    <div class="text-xl font-semibold capitalize">
+                                        Resources
+                                    </div>
+                                    <!-- Footer Title -->
+        
+                                    <!-- Footer Navbar -->
+                                    <ul class="flex flex-col gap-y-[10px] capitalize">
+                                        
+                                        <li>
+                                            <a href="/faq" class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline">Faq</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline">Support</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline">Privacy policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.example.com/" target="_blank" rel="noopener noreferrer" class="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline">Terms & Conditions</a>
+                                        </li>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Footer Widget Item -->
+                                <!-- Footer Widget Item -->
+                                <div class="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1">
+                                    <!-- Footer Title -->
+                                    <div class="text-xl font-semibold capitalize">
+                                        Join Closed Testing
+                                    </div>
+                                    <!-- Footer Title -->
+        
+                                    <div class="flex flex-col gap-3">
+                                        <a href="#">
+                                            <img src ="/static/img/icons/icon-apple-app-store.svg" alt="icon-apple-app-store" width="166" height="54" />
+                                        </a>
+                                        <a href="#">
+                                            <img src ="/static/img/icons/icon-google-play-store.svg" alt="icon-apple-app-store" width="166" height="51" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Footer Widget Item -->
+                            </div>
+                            <!-- Footer Widget List -->
+                        </div>
+                        <!-- Section Container -->
+                    </div>
+                    <!-- Footer Center Spacing -->
+                </div>
+                <!-- Footer Area Center -->
+                <div class="horizontal-line bg-ColorBlack"></div>
+                <!-- Footer Bottom -->
+                <div>
+                    <!-- Footer Bottom Spacing -->
+                    <div class="py-[18px]">
+                        <!-- Section Container -->
+                        <div class="container-default">
+                            <div class="text-center">
+                                &copy; Copyright 2025, All Rights Reserved by Envoyé
+                            </div>
+                        </div>
+                        <!-- Section Container -->
+                    </div>
+                    <!-- Footer Bottom Spacing -->
+                </div>
+                <!-- Footer Bottom -->
+            </div>
+        </footer>
+
+    </div>
+
+<!--Vendor js-->
+<script src="static/js/vendors/counterup.js" type="module"></script>
+<script src="static/js/vendors/swiper-bundle.min.js"></script>
+<script src="static/js/vendors/fslightbox.js"></script>
+<script src="static/js/vendors/jos.min.js"></script>
+<script src="static/js/vendors/menu.js"></script>
+
+<!-- Main js -->
+<script src="static/js/main.js"></script>
+
+</body>
+
+</html>
